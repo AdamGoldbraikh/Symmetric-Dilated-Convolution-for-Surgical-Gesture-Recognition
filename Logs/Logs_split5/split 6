@@ -1,0 +1,162 @@
+Namespace(cuda=True, d_inner_hid=512, d_k=16, d_model=128, d_v=16, data_root='SpatialCNN/Split_4', dataset='split6', dropout=0.5, epoch=30, gpu_id=1, lr=0.01, n_classes=10, n_dlayers=10, n_head=1, n_layers=1, n_position=5000, n_warmup_steps=4000, num_f_maps=128, num_workers=8, test_batch_size=1, test_label='Suturing/Split_6/test.txt', train_batch_size=1, train_label='Suturing/Split_6/train.txt')
+cuda:1
+Epoch 0/29
+----------
+/data/home/orrubin/.local/lib/python3.6/site-packages/torch/nn/functional.py:652: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool1d(input, kernel_size, stride, padding, dilation, ceil_mode)
+Training Loss: 2.4293 Acc: 0.0965
+Test Loss: 2.1514 Acc: 0.2539
+
+Epoch 1/29
+----------
+Training Loss: 1.9463 Acc: 0.3212
+Test Loss: 1.5826 Acc: 0.4534
+
+Epoch 2/29
+----------
+Training Loss: 1.4181 Acc: 0.5342
+Test Loss: 1.0227 Acc: 0.6609
+
+Epoch 3/29
+----------
+Training Loss: 0.8580 Acc: 0.7469
+Test Loss: 0.6531 Acc: 0.7936
+
+Epoch 4/29
+----------
+Training Loss: 0.5366 Acc: 0.8272
+Test Loss: 0.4891 Acc: 0.8466
+
+Epoch 5/29
+----------
+Training Loss: 0.3985 Acc: 0.8702
+Test Loss: 0.4538 Acc: 0.8500
+
+Epoch 6/29
+----------
+Training Loss: 0.3151 Acc: 0.8948
+Test Loss: 0.4297 Acc: 0.8519
+
+Epoch 7/29
+----------
+Training Loss: 0.2798 Acc: 0.9054
+Test Loss: 0.3817 Acc: 0.8600
+
+Epoch 8/29
+----------
+Training Loss: 0.2396 Acc: 0.9182
+Test Loss: 0.3916 Acc: 0.8578
+
+Epoch 9/29
+----------
+Training Loss: 0.2274 Acc: 0.9191
+Test Loss: 0.4148 Acc: 0.8628
+
+Epoch 10/29
+----------
+Training Loss: 0.1983 Acc: 0.9305
+Test Loss: 0.3445 Acc: 0.8799
+
+Epoch 11/29
+----------
+Training Loss: 0.1832 Acc: 0.9359
+Test Loss: 0.4035 Acc: 0.8688
+
+Epoch 12/29
+----------
+Training Loss: 0.1718 Acc: 0.9373
+Test Loss: 0.4029 Acc: 0.8693
+
+Epoch 13/29
+----------
+Training Loss: 0.1608 Acc: 0.9409
+Test Loss: 0.4294 Acc: 0.8691
+
+Epoch 14/29
+----------
+Training Loss: 0.1454 Acc: 0.9472
+Test Loss: 0.3959 Acc: 0.8764
+
+Epoch 15/29
+----------
+Training Loss: 0.1369 Acc: 0.9505
+Test Loss: 0.4856 Acc: 0.8641
+
+Epoch 16/29
+----------
+Training Loss: 0.1365 Acc: 0.9488
+Test Loss: 0.3393 Acc: 0.8842
+
+Epoch 17/29
+----------
+Training Loss: 0.1227 Acc: 0.9531
+Test Loss: 0.3198 Acc: 0.8908
+
+Epoch 18/29
+----------
+Training Loss: 0.1118 Acc: 0.9572
+Test Loss: 0.4228 Acc: 0.8731
+
+Epoch 19/29
+----------
+Training Loss: 0.1116 Acc: 0.9570
+Test Loss: 0.4967 Acc: 0.8740
+
+Epoch 20/29
+----------
+Training Loss: 0.1199 Acc: 0.9554
+Test Loss: 0.5500 Acc: 0.8634
+
+Epoch 21/29
+----------
+Training Loss: 0.1162 Acc: 0.9548
+Test Loss: 0.4182 Acc: 0.8796
+
+Epoch 22/29
+----------
+Training Loss: 0.0990 Acc: 0.9627
+Test Loss: 0.4813 Acc: 0.8711
+
+Epoch 23/29
+----------
+Training Loss: 0.0940 Acc: 0.9645
+Test Loss: 0.4011 Acc: 0.8834
+
+Epoch 24/29
+----------
+Training Loss: 0.1070 Acc: 0.9590
+Test Loss: 0.5960 Acc: 0.8627
+
+Epoch 25/29
+----------
+Training Loss: 0.1005 Acc: 0.9608
+Test Loss: 0.4389 Acc: 0.8856
+
+Epoch 26/29
+----------
+Training Loss: 0.0795 Acc: 0.9691
+Test Loss: 0.4630 Acc: 0.8765
+
+Epoch 27/29
+----------
+Training Loss: 0.0853 Acc: 0.9676
+Test Loss: 0.4213 Acc: 0.8874
+
+Epoch 28/29
+----------
+Training Loss: 0.0949 Acc: 0.9648
+Test Loss: 0.4153 Acc: 0.8896
+
+Epoch 29/29
+----------
+Training Loss: 0.1196 Acc: 0.9573
+Test Loss: 0.6005 Acc: 0.8631
+
+Training complete in 1m 37s
+Best val Acc: 0.890796
+False
+Evaluation Accuray: 0.8908
+Edit: 85.8285
+F1@0.10 : 87.7778
+F1@0.25 : 85.5556
+F1@0.50 : 83.3333
